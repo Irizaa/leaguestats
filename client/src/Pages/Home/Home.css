@@ -1,0 +1,46 @@
+#title {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 5vw;
+}
+#search-bar {
+    font-size: 1.5vw;
+    width: 40vw;
+    border-radius: 25px 0 0 25px;
+    padding: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    height: 3.9vh;
+  }
+  #search-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+#search-button {
+    background-image: url('D:/Code/leaguestats/client/src/Assets/search-icon-png-1.png');
+    background-color: #F64C72;
+    text-align: center;
+    background-size: cover;
+    width: 3vw;
+    height: 6vh;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    cursor:pointer
+}
+@media(max-width: 950px) {
+    #title {
+        font-size: 10vw;
+    }
+    #search-bar {
+        font-size: 3vw;
+    }
+}
