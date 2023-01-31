@@ -17,75 +17,8 @@
     color: whitesmoke;
     font-size: 100px;
 }
-#search-bar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    top: 51%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-#search-bar {
-    font-size: 20px;
-    height: 50px;
-    width: 600px;
-    border-radius: 25px 0 0 25px;
-    padding: 10px;
-    border: none;
-    display: flex;
-    align-items: center;
-  }
-  input[type=text]:focus {
-    outline: none;
-  }
-#search-button {
-    background-image: url('D:/Code/leaguestats/client/src/Assets/search-icon-png-1.png');
-    background-color: #F64C72;
-    text-align: center;
-    background-size: cover;
-    width: 70px;
-    height: 70px;
-    border-radius: 0 25px 25px 0;
-    border: none;
-    cursor:pointer
-}
-#region-selector {
-    display: inline;
-    position: absolute;
-    top: 64.5%;
-    left: 50%;
-    width: 500px;
-    transform: translate(-50%, -50%);
-}
-.region-button {
-    color: whitesmoke;
-    background-color: #2F2FA2;
-    border-color: transparent;
-    margin-top: 5px;
-    margin-right: 12px;
-    width: 50px;
-    cursor: pointer;
-}
 @media(max-width: 874px) {
     #title {
         font-size: 10vw;
-    }
-    #search-bar {
-        font-size: 4vw;
-        width: 50vw;
-        height: 4vh;
-    }
-    #search-button {
-        width: 60px;
-        height: 6.38vh;
-    }
-    #region-selector {
-        left: 51.5%;
-        text-align: center;
-        width: 259px;
-    }
-    .region-button {
-        width: 43px;
     }
 }
