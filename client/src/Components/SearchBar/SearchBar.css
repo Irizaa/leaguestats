@@ -1,0 +1,143 @@
+#home-search-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+#home-search-bar-container #search-bar {
+    font-size: 20px;
+    height: 50px;
+    width: 600px;
+    border-radius: 25px 0 0 25px;
+    padding: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+input[type=text]:focus {
+    outline: none;
+  }
+#home-search-bar-container #search-button {
+    background-image: url('D:/Code/leaguestats/client/src/Assets/fwd3.png');
+    background-size: 20px 20px;
+    resize: both;
+    background-color: #F64C72;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    cursor:pointer
+}
+#home-region-selector {
+    display: inline;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%, -50%);
+}
+.region-button {
+    font-size: 12.5px;
+    color: whitesmoke;
+    background-color: #2F2FA2;
+    border-color: transparent;
+    margin-top: 5px;
+    margin-right: 12px;
+    width: 50px;
+    cursor: pointer;
+}
+#home-search-bar-container #profile-region-options {
+    display: none;
+}
+@media(max-width: 874px) {
+    #home-search-bar-container #search-bar {
+        font-size: 4vw;
+        width: 50vw;
+        height: 4vh;
+    }
+    #home-search-bar-container #search-button {
+        width: 50px;
+        height: 55px;
+    }
+    #home-region-selector {
+        margin-top: 10px;
+        left: 51.5%;
+        text-align: center;
+        width: 259px;
+    }
+    .region-button {
+        width: 43px;
+    }
+}
+#profile-search-bar-container {
+    display: inline-block;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 32vw;
+}
+#profile-search-bar-container #search-bar {
+    position: relative;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    border-radius: 25px 0 0 25px;
+    padding: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+#profile-search-bar-container #search-button {
+    background-image: url('D:/Code/leaguestats/client/src/Assets/fwd3.png');
+    background-size: 20px 20px;
+    resize: both;
+    position: relative;
+    background-color: #F64C72;
+    text-align: center;
+    width: 50px;
+    height: 60px;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    cursor:pointer
+}
+#profile-region-selector {
+    position: relative;
+    width: 500px;
+}
+#profile-region-selector .region-button {
+    display: none;
+}
+#profile-region-options {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+    width: 80px;
+    height: 5vh;
+    background: transparent;
+    color: whitesmoke;
+    overflow-y: scroll;
+}
+#profile-region-options option {
+    color: black;
+}
+@media(max-width: 847px) {
+    #profile-region-options {
+        margin-top: 5px;
+    }
+    #profile-search-bar-container {
+       margin-left: 50px;
+    }
+    #profile-search-bar-container #search-bar {
+        width: 50vw;
+        height: 3vh;
+    }
+    #profile-search-bar-container #search-button {
+        height: 5.4vh;
+    }
+}
